@@ -1,3 +1,4 @@
+#Mishyn Vladyslav
 import pygame
 import random
 import pickle
@@ -25,7 +26,7 @@ class Player(pygame.sprite.Sprite):
         self.jump_count = 8
         self.player_anim_count = 0
         self.keys = pygame.key.get_pressed()
-        
+
     def update_player(self, keys):
         if keys[pygame.K_a]:
             self.update_animation_player(self.screen, side=True)
